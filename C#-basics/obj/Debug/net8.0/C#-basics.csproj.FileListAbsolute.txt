@@ -1,0 +1,14 @@
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\bin\Debug\net8.0\C#-basics.exe
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\bin\Debug\net8.0\C#-basics.deps.json
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\bin\Debug\net8.0\C#-basics.runtimeconfig.json
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\bin\Debug\net8.0\C#-basics.dll
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\bin\Debug\net8.0\C#-basics.pdb
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.AssemblyInfoInputs.cache
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.AssemblyInfo.cs
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.csproj.CoreCompileInputs.cache
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.dll
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\refint\C#-basics.dll
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.pdb
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.genruntimeconfig.cache
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\ref\C#-basics.dll

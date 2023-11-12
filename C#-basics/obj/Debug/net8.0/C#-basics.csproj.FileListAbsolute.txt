@@ -12,3 +12,4 @@ C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\
 C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.pdb
 C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.genruntimeconfig.cache
 C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\ref\C#-basics.dll
+C:\Storage\Programming\General Practice\C#\C#-basics\C#-basics\obj\Debug\net8.0\C#-basics.sourcelink.json

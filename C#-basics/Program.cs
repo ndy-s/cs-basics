@@ -83,15 +83,32 @@ namespace C__basics
 
             // - Building a Calculator -
             // int num = Convert.ToInt32("45");
-            Console.Write("Enter a number: ");
+            // Console.Write("Enter a number: ");
             // int num1 = Convert.ToInt32(Console.ReadLine());
-            double num1 = Convert.ToDouble(Console.ReadLine());
-            
-            Console.Write("Enter another number: ");
-            // int num2 = Convert.ToInt32(Console.ReadLine());
-            double num2 = Convert.ToDouble(Console.ReadLine());
+            // double num1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine(num1 + num2);
+            // Console.Write("Enter another number: ");
+            // int num2 = Convert.ToInt32(Console.ReadLine());
+            // double num2 = Convert.ToDouble(Console.ReadLine());
+
+            // Console.WriteLine(num1 + num2);
+
+
+            // - Matlib games in C# - 
+            string color, pluralNoun, celebrity;
+
+            Console.Write("Enter a color: ");
+            color = Console.ReadLine();
+
+            Console.Write("Enter a plural noun: ");
+            pluralNoun = Console.ReadLine();
+
+            Console.Write("Enter a celebrity: ");
+            celebrity = Console.ReadLine();
+
+            Console.WriteLine("Roses are " + color);
+            Console.WriteLine(pluralNoun + " are blue");
+            Console.WriteLine("I love " + celebrity);
 
         }
     }

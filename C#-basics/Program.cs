@@ -95,20 +95,34 @@ namespace C__basics
 
 
             // - Matlib games in C# - 
-            string color, pluralNoun, celebrity;
+            // string color, pluralNoun, celebrity;
 
-            Console.Write("Enter a color: ");
-            color = Console.ReadLine();
+            // Console.Write("Enter a color: ");
+            // color = Console.ReadLine();
 
-            Console.Write("Enter a plural noun: ");
-            pluralNoun = Console.ReadLine();
+            // Console.Write("Enter a plural noun: ");
+            // pluralNoun = Console.ReadLine();
 
-            Console.Write("Enter a celebrity: ");
-            celebrity = Console.ReadLine();
+            // Console.Write("Enter a celebrity: ");
+            // celebrity = Console.ReadLine();
 
-            Console.WriteLine("Roses are " + color);
-            Console.WriteLine(pluralNoun + " are blue");
-            Console.WriteLine("I love " + celebrity);
+            // Console.WriteLine("Roses are " + color);
+            // Console.WriteLine(pluralNoun + " are blue");
+            // Console.WriteLine("I love " + celebrity);
+
+
+            // - Arrays - 
+            int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
+            luckyNumbers[1] = 900;
+
+            Console.WriteLine(luckyNumbers[1]);
+
+            string[] friends = new string[10];
+            friends[0] = "Jim";
+            friends[1] = "Kelly";
+
+            Console.WriteLine(friends[1]);
+
 
         }
     }

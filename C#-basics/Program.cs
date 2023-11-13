@@ -225,12 +225,16 @@ namespace C__basics
 
 
             // - For Loops -
-            int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
+            /* int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
 
             for (int i = 0; i < luckyNumbers.Length; i++)
             {
                 Console.WriteLine(luckyNumbers[i]);
-            }
+            } */
+
+
+            // - Exponent Method -
+            Console.WriteLine(GetPow(2, 4));
 
         }
 
@@ -303,6 +307,18 @@ namespace C__basics
 
             return dayName;
         } */
+
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result = 1;
+            
+            for (int i = 0; i < powNum; i++)
+            {
+                result = result * baseNum;
+            }
+
+            return result;
+        }
 
     }
 }

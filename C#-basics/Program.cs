@@ -234,8 +234,20 @@ namespace C__basics
 
 
             // - Exponent Method -
-            Console.WriteLine(GetPow(2, 4));
+            // Console.WriteLine(GetPow(2, 4));
 
+
+            // 2d Array
+            int[,] numberGrid =
+            {
+                {1, 2},
+                {3, 4},
+                {4, 5},
+            };
+
+            int[,] myArray = new int[2, 3];
+
+            Console.WriteLine(numberGrid[0, 0]);
         }
 
         // - Methods -
@@ -308,7 +320,8 @@ namespace C__basics
             return dayName;
         } */
 
-        static int GetPow(int baseNum, int powNum)
+
+        /*static int GetPow(int baseNum, int powNum)
         {
             int result = 1;
             
@@ -318,7 +331,7 @@ namespace C__basics
             }
 
             return result;
-        }
+        }*/
 
     }
 }

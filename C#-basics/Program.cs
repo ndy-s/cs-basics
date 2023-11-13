@@ -237,8 +237,8 @@ namespace C__basics
             // Console.WriteLine(GetPow(2, 4));
 
 
-            // 2d Array
-            int[,] numberGrid =
+            // - 2D Array -
+            /*int[,] numberGrid =
             {
                 {1, 2},
                 {3, 4},
@@ -247,7 +247,33 @@ namespace C__basics
 
             int[,] myArray = new int[2, 3];
 
-            Console.WriteLine(numberGrid[0, 0]);
+            Console.WriteLine(numberGrid[0, 0]);*/
+
+
+            // - Error Handler -
+            try
+            {
+                Console.Write("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("^^^^^^^^^^^^^");
+            }
+
+            Console.ReadLine();
         }
 
         // - Methods -

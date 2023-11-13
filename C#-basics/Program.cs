@@ -186,13 +186,42 @@ namespace C__basics
 
 
             // - While Loop -
-            int index = 6;
+            /* int index = 6;
 
             do
             {
                 Console.WriteLine(index);
                 index++;
-            } while (index <= 5);
+            } while (index <= 5); */
+
+
+            // - Guessing game -
+            /*string secretWord = "giraffe";
+            string guess = "";
+            int guessCount = 0;
+            int guessLimit = 3;
+            bool outOfGuesses = false;
+
+            while (guess != secretWord && !outOfGuesses)
+            {
+                if (guessCount < guessLimit)
+                {
+                    Console.Write("Enter your guess: ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                } else
+                {
+                    outOfGuesses = true;
+                }
+            }
+
+            if (outOfGuesses)
+            {
+                Console.Write("You Lose!");
+            } else
+            {
+                Console.Write("You Win!");
+            }*/
 
         }
 

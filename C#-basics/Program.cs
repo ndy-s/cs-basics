@@ -184,6 +184,16 @@ namespace C__basics
             // - Switch statement -
             // Console.WriteLine(GetDay(9));
 
+
+            // - While Loop -
+            int index = 6;
+
+            do
+            {
+                Console.WriteLine(index);
+                index++;
+            } while (index <= 5);
+
         }
 
         // - Methods -

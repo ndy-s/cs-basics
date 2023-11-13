@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Storage\\Programming\\General Practice\\C#\\C#-basics\\C#-basics\\C#-basics.csproj": {}
+    "C:\\Storage\\Programming\\General Practice\\C#\\cs-basics\\C#-basics\\C#-basics.csproj": {}
   },
   "projects": {
-    "C:\\Storage\\Programming\\General Practice\\C#\\C#-basics\\C#-basics\\C#-basics.csproj": {
+    "C:\\Storage\\Programming\\General Practice\\C#\\cs-basics\\C#-basics\\C#-basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Storage\\Programming\\General Practice\\C#\\C#-basics\\C#-basics\\C#-basics.csproj",
+        "projectUniqueName": "C:\\Storage\\Programming\\General Practice\\C#\\cs-basics\\C#-basics\\C#-basics.csproj",
         "projectName": "C#-basics",
-        "projectPath": "C:\\Storage\\Programming\\General Practice\\C#\\C#-basics\\C#-basics\\C#-basics.csproj",
+        "projectPath": "C:\\Storage\\Programming\\General Practice\\C#\\cs-basics\\C#-basics\\C#-basics.csproj",
         "packagesPath": "C:\\Users\\hendy\\.nuget\\packages\\",
-        "outputPath": "C:\\Storage\\Programming\\General Practice\\C#\\C#-basics\\C#-basics\\obj\\",
+        "outputPath": "C:\\Storage\\Programming\\General Practice\\C#\\cs-basics\\C#-basics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hendy\\AppData\\Roaming\\NuGet\\NuGet.Config",

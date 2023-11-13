@@ -129,8 +129,29 @@ namespace C__basics
             // SayHi("John", 12);
 
             // - Methods with return -
-            int cubedNumber = cube(5);
-            Console.Write(cubedNumber);
+            // int cubedNumber = cube(5);
+            // Console.Write(cubedNumber);
+
+
+            // - If else statement -
+            /* bool isMale = true;
+            bool isTall = false;
+
+            if (isMale && isTall)
+            {
+                Console.Write("You are tall male");
+            } else if (isMale && !isTall)
+            {
+                Console.Write("You are a short male");
+            } else if (!isMale && isTall) 
+            {
+                Console.Write("Your are not a male but you are tall");
+            } else
+            {
+                Console.WriteLine("You are either not male or tall or both");
+            } */
+
+            Console.WriteLine(GetMax(1, 10, 40));
         }
 
         // - Methods -
@@ -140,11 +161,31 @@ namespace C__basics
         } */
 
         // - Return methods
-        static int cube(int num)
+        /* static int cube(int num)
         {
             int result = num * num * num;
             return result;
 
+        }*/
+
+        // - More in if else statement -
+        static int GetMax(int num1, int num2, int num3)
+        {
+            int result;
+
+            if (num1 >= num2 && num1 >= num3)
+            {
+                result = num1;
+            } else if (num2 >= num1 && num2 >= num3) 
+            {
+                result = num2;
+            }
+            else
+            {
+                result = num3;
+            }
+
+            return result;
         }
     }
 }

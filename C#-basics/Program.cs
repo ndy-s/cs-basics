@@ -64,10 +64,22 @@ namespace C__basics
 
 
             // - Math Methods - 
-            Console.WriteLine(Math.Abs(-40));
-            Console.WriteLine(Math.Pow(3.8, 2));
-            Console.WriteLine(Math.Sqrt(36));
-            Console.WriteLine(Math.Max(4, 90));
+            // Console.WriteLine(Math.Abs(-40));
+            // Console.WriteLine(Math.Pow(3.8, 2));
+            // Console.WriteLine(Math.Sqrt(36));
+            // Console.WriteLine(Math.Max(4, 90));
+            // Console.WriteLine(Math.Min(4, 90));
+            // Console.WriteLine(Math.Round(4.3));
+
+
+            // - Getting User Inputs - 
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " you're " + age);
+
         }
     }
 }

@@ -123,16 +123,28 @@ namespace C__basics
 
             // Console.WriteLine(friends[1]);
 
+            // - Call Methods - 
+            // SayHi("Hendy", 20);
+            // SayHi("Mike", 22);
+            // SayHi("John", 12);
 
-            SayHi("Hendy", 20);
-            SayHi("Mike", 22);
-            SayHi("John", 12);
+            // - Methods with return -
+            int cubedNumber = cube(5);
+            Console.Write(cubedNumber);
         }
 
         // - Methods -
-        static void SayHi(string name, int age)
+        /* static void SayHi(string name, int age)
         {
             Console.WriteLine("Hello " + name + " you are " + age);
+        } */
+
+        // - Return methods
+        static int cube(int num)
+        {
+            int result = num * num * num;
+            return result;
+
         }
     }
 }

@@ -112,18 +112,27 @@ namespace C__basics
 
 
             // - Arrays - 
-            int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
-            luckyNumbers[1] = 900;
+            // int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
+            // luckyNumbers[1] = 900;
 
-            Console.WriteLine(luckyNumbers[1]);
+            // Console.WriteLine(luckyNumbers[1]);
 
-            string[] friends = new string[10];
-            friends[0] = "Jim";
-            friends[1] = "Kelly";
+            // string[] friends = new string[10];
+            // friends[0] = "Jim";
+            // friends[1] = "Kelly";
 
-            Console.WriteLine(friends[1]);
+            // Console.WriteLine(friends[1]);
 
 
+            SayHi("Hendy", 20);
+            SayHi("Mike", 22);
+            SayHi("John", 12);
+        }
+
+        // - Methods -
+        static void SayHi(string name, int age)
+        {
+            Console.WriteLine("Hello " + name + " you are " + age);
         }
     }
 }

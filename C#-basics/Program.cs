@@ -151,7 +151,35 @@ namespace C__basics
                 Console.WriteLine("You are either not male or tall or both");
             } */
 
-            Console.WriteLine(GetMax(1, 10, 40));
+            // Console.WriteLine(GetMax(1, 10, 40));
+
+
+            // - Building a better calculator -
+            /*Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Oprator: ");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter a number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (op == "+")
+            {
+                Console.WriteLine(num1 + num2);
+            } else if (op == "-")
+            {
+                Console.WriteLine(num1 - num2);
+            } else if (op == "/")
+            {
+                Console.WriteLine(num1 / num2);
+            } else if (op == "*")
+            {
+                Console.WriteLine(num1 * num2);
+            } else
+            {
+                Console.WriteLine("Invalid Operator!");
+            }*/
         }
 
         // - Methods -
@@ -169,7 +197,7 @@ namespace C__basics
         }*/
 
         // - More in if else statement -
-        static int GetMax(int num1, int num2, int num3)
+        /* static int GetMax(int num1, int num2, int num3)
         {
             int result;
 
@@ -186,6 +214,8 @@ namespace C__basics
             }
 
             return result;
-        }
+        } */
+
+
     }
 }
